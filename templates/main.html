@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comment Classification using CNN</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.css')}}">
+
+</head>
+<body>
+
+<div class="jumbotron">
+    <br>
+  <h1 class="display-4">Toxic Comment Classification Using CNN</h1>
+  <p class="lead">A comment classification system using Fast2Text and CNN</p>
+  <hr class="my-4">
+
+    <form method="POST" action="/">
+        <br>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Enter the comment here</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="sentence"></textarea>
+        <br>
+
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+    </form>
+    <br><br>
+  </div>
+
+
+</body>
+</html>

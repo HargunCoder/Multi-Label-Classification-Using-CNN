@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comment Classification using CNN</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.css')}}">
+
+</head>
+<body>
+
+<div class="jumbotron">
+    <br>
+  <h1 class="display-4">Toxic Comment Classification Using CNN</h1>
+  <p class="lead">A comment classification system using Fast2Text and CNN</p>
+  <hr class="my-4">
+
+      <p class="lead">Sentence Entered {{text}}</p>
+      <p class="lead"><strong>Multi Label Classification Result:</strong></p>
+      <p class="lead">Toxic : {{toxic}} </p>
+      <p class="lead">Severe-Toxic : {{setoxic}} </p>
+      <p class="lead">Obscene : {{obscene}} </p>
+      <p class="lead">Threat: {{threat}} </p>
+      <p class="lead">Insult: {{insult}} </p>
+      <p class="lead">Identity-Hate: {{idhate}} </p>
+
+
+
+
+
+
+
+  </div>
+
+
+</body>
