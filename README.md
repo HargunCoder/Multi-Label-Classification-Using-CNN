@@ -14,8 +14,8 @@ different types of toxicity to improve the social media experience. The dataset 
 Wikipedia’s talk page edits. 
 
 ## Technologies Used
-1 Flask
-2 Nltk
-3 Keras
-4 Tenserflow
+1. Flask
+2. Nltk
+3. Keras
+4. Tenserflow
 
