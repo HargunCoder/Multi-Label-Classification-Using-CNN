@@ -1,0 +1,41 @@
+body
+{
+	border:15px solid #bdc3c7;
+	margin-left: 8%;
+	margin-right:8% ;
+	margin-top: 2%;
+	padding:20px;
+	/*You can also use width
+	and max width,it switches 
+	max-width:700px;
+	width:80%
+	After it cant be 700 px it changes to width value;*/
+	font-family: Source Sans Pro;
+}
+h2
+{
+	font-weight: 700;
+	font-size: 2.0rem;
+	color: #7e9df4;
+	text-transform: uppercase;
+}
+.quote{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+.date{
+	color: #3498db;
+	letter-spacing:0.2rem;
+	/*Relative Unit Of Measurement but its onl
+	wrt to body and not nested parent*/
+	text-transform: uppercase;
+}
+.post{
+	margin-bottom: 20px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
